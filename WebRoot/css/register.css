@@ -1,0 +1,37 @@
+/* 注册页面的样式 */
+#registerForm {
+	height: 300px;
+	width: 70%;
+	position: relative;
+	top: 100px;
+	margin: auto;
+	padding-top: 200px;
+	border-radius: 10px;
+	background: #d1d3d3;
+}
+
+#registerForm .text {
+	float:left;
+	width:280px;
+	height:18px;
+	line-height:18px;
+	font-size:14px;
+	padding:8px;
+	border:1px #a8d2e7 solid;
+}
+
+#registerForm .button {
+	float:left;
+	width:100px;
+	height:50px;
+	line-height:18px;
+	font-size:14px;
+	padding:8px;
+	margin-left:60px;
+	border:1px #a8d2e7 solid;
+	background:#ffffff;
+}
+
+#registerForm table {
+	margin: auto;
+}

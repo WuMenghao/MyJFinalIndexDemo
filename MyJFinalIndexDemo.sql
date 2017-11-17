@@ -1,0 +1,8 @@
+CREATE TABLE users (
+  id INT(12) NOT NULL AUTO_INCREMENT,
+  user_name VARCHAR(12),
+  passward VARCHAR(12),
+  adress VARCHAR(50),
+  email VARCHAR(20),
+  PRIMARY KEY(id)
+)ENGINE=INNOBASE CHARACTER SET utf8 COLLATE utf8_general_ci

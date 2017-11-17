@@ -1,0 +1,9 @@
+/* 查询页面的样式 */
+#queryTable {
+	width: 50%;
+	margin: auto;
+}
+
+#queryTable>table th td{
+	border:1px solid;
+}
