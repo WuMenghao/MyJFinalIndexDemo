@@ -30,18 +30,18 @@ $("document").ready(function(){
 		}
 	})
 	
-//	function check(){
-//		if(document.getElementById("acount").value==""){
-//			alert("请输入用户名!");
-//			document.getElementById("acount").focus();
-//			return false;
-//		}
+	function check(){
+		if(document.getElementById("acount").value==""){
+			alert("请输入用户名!");
+			document.getElementById("acount").focus();
+			return false;
+		}
 	
-//		if(document.getElementById("pass_word").value==""){
-//			alert("请输入密码!");
-//			document.getElementById("pass_word").focus();
-//			return false;
-//		}
+		if(document.getElementById("pass_word").value==""){
+			alert("请输入密码!");
+			document.getElementById("pass_word").focus();
+			return false;
+		}
 		
-//	}
-//	
+	}
+	
