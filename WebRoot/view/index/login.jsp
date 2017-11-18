@@ -19,15 +19,23 @@
 					</tr>
 					<tr>
 						<td>账号:</td>
-						<td><input type="text" class="text" name="login.acount" id="acount"></td>
+						<td><div><input type="text" name="login.acount"
+							id="acount"></div></td>
 					</tr>
 					<tr>
 						<td>密码:</td>
-						<td><input type="password" class="text" name="login.pass_word" id="pass_word"></td>
+						<td>
+							<input type="password" 
+								name="login.pass_word" id="pass_word">
+						</td>
 					</tr>
 					<tr>
-						<td colspan="2"><input class="button" type="submit" value="登录" onclick="return click();"/><input
-							class="button" type="reset" name="reset" value="重置" /></td>
+						<td colspan="2">
+							<input type="submit"
+							     value="登录" id="submit"/>
+							<input 
+								type="reset" name="reset" value="重置" />
+						</td>
 					</tr>
 				</table>
 			</form>
