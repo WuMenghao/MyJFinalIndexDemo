@@ -22,7 +22,9 @@ public class GlobalInterceptor implements Interceptor {
 		System.out.println("actionKey:"+actionKey);
 		System.out.println("viewPath"+viewPath);
 		
-		//if(actionKey.equals("/error/"))
+		if(actionKey.equals("/index/success")){
+			controller.getSession();
+		}
 		
 		inv.invoke();
 		

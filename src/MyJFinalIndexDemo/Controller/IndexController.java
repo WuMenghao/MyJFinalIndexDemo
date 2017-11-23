@@ -139,7 +139,7 @@ public class IndexController extends Controller {
 	 * */
 	public void success(){
 		
-		render("/view/error/Success.jsp");
+		render("/view/index/Success.jsp");
 	}
 	
 	/*
