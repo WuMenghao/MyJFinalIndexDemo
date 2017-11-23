@@ -1,6 +1,7 @@
 package MyJFinalIndexDemo.Config;
 
 import MyJFinalIndexDemo.Controller.IndexController;
+import MyJFinalIndexDemo.filter.GlobalInterceptor;
 import MyJFinalIndexDemo.model.Users;
 
 import com.jfinal.config.Constants;
@@ -77,6 +78,8 @@ public class IndexConfiger extends JFinalConfig{
 	 * */
 	@Override
 	public void configInterceptor(Interceptors me) {
+		me.add(new GlobalInterceptor());
+		
 	}
 
 	

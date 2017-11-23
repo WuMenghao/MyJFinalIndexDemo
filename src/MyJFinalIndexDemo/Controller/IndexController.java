@@ -76,18 +76,19 @@ public class IndexController extends Controller {
 			String msg="您输入的账户或密码有误!";
 			setAttr("login", login);
 			setAttr("msg", msg);
-			render("/view/error/Failed.jsp");
+			
+			forwardAction("/index/failed");
+			
 		}else {
 			setAttr("login", login);
-			render("/view/error/Success.jsp");
+			forwardAction("/index/success");
+			
 		}
 		
 		
 		
 		System.out.println("账号"+acount);
 		System.out.println("密码"+password);
-		System.out.println(userIfo.toString());
-		System.out.println(userIfo.isEmpty());
 		
 
 	}
@@ -131,4 +132,23 @@ public class IndexController extends Controller {
 		welcome();
 	}
 	
+	/*
+	 * 
+	 * 登录成功页面
+	 * 
+	 * */
+	public void success(){
+		
+		render("/view/error/Success.jsp");
+	}
+	
+	/*
+	 *
+	 *登录失败页面
+	 *
+	 **/
+	public void failed(){
+			render("/view/error/Failed.jsp");
+		
+	}
 }

@@ -19,14 +19,14 @@
 					</tr>
 					<tr>
 						<td>账号:</td>
-						<td><div><input type="text" name="login.acount"
-							id="acount"></div></td>
+						<td><div><input type="text" 
+								name="login.acount" id="acount"></div></td>
 					</tr>
 					<tr>
 						<td>密码:</td>
 						<td>
 							<input type="password" 
-								name="login.pass_word" id="pass_word">
+								name="login.pass_word" id="password">
 						</td>
 					</tr>
 					<tr>
