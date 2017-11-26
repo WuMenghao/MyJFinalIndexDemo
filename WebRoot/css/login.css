@@ -1,38 +1,14 @@
 /* 登录页面的样式 */
-#loginForm {
-	height: 300px;
-	width: 70%;
-	position: relative;
-	top: 100px;
-	margin: auto;
-	padding-top: 200px;
-	border-radius: 10px;
-	background: #d1d3d3;
+#loginForm{
+    height: 250px;
+    width: 800px;
+    margin: 200px auto;
+    padding-top: 150px;
+    border: solid 1px;
 }
-
-#loginForm .text {
-	float:left;
-	width:280px;
-	height:18px;
-	line-height:18px;
-	font-size:14px;
-	padding:8px;
-	border:1px #a8d2e7 solid;
+.right{
+    padding-left:280px;
 }
-
-#loginForm .button {
-	float:left;
-	width:100px;
-	height:50px;
-	line-height:18px;
-	font-size:14px;
-	padding:8px;
-	margin-left:60px;
-	border:1px #a8d2e7 solid;
-	background:#ffffff;
-}
-
-
-#loginForm table {
-	margin: auto;
+#submit{
+    margin-left: 360px;
 }
