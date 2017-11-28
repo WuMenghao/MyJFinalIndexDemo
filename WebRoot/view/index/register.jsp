@@ -7,24 +7,30 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="/css/register.css">
-
+<script type="text/javascript" src="/js/register.js"></script>
 <title>注册</title>
 </head>
 <body>
-<center>
 	<div id="registerForm">
 		<form action="/index/save" method="post">
 			<input type="hidden" name="register.id" value="${register.id}"/>
-			<table>
-			<tr><th colspan="2">新用户注册</th></tr>
-			<tr><td>用   户 名:</td><td><input class="text" type="text" name="register.user_name" value="${register.user_name }"></td></tr>
-			<tr><td>账&nbsp&nbsp号:</td><td><input class="text" type="text" name="register.acount" value="${register.acount }"></td></tr>
-			<tr><td>密&nbsp&nbsp码:</td><td><input class="text" type="password" name="register.pass_word" value="${register.pass_word }"></td></tr>
-			<tr><td>电子邮箱:</td><td><input class="text" type="text" name="register.email" value="${register.email}"></td></tr>
-			<tr><td colspan="2"><input class="button" type="submit" value="注册"><input class="button" type="reset" name="reset" value="重置"/></td></tr>
-			</table>
-		</form>
+			<div id="title"><h3>新用户注册</h3></div>
+			
+			<span class="right">用 &nbsp 户 名:</span>
+			<input id="username" type="text" name="register.user_name" >
+			<br/>
+			<span class="right">账 &nbsp &nbsp &nbsp 号:</span>
+			<input id="acount" type="text" name="register.acount" >
+			<br/>
+			<span class="right">密 &nbsp &nbsp &nbsp 码:</span>
+			<input id="password" type="password" name="register.pass_word" >
+			<br/>
+			<span class="right">电子邮箱:</span>
+			<input id="email" type="text" name="register.email" >
+			<br/>
+			<input id="submit" type="submit" value="注册" onclick="return checkForm();">
+			<input  type="reset" name="reset" value="重置"/>
+		</form>	
 	</div>
-</center>
 </body>
 </html>
